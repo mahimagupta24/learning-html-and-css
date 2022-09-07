@@ -7,6 +7,8 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin:0px;
+  background-color: #ddd6fe;
+  width:100%
 }
 hr {
   margin: 3rem 0rem;
@@ -86,11 +88,11 @@ text-align: right;
   background-color: var(--off-white);
 }
 .footer{
-  background-color: var(--primary-color);
+  background-color:var(--primary-color);
   padding: 2rem 1rem;
   text-align: center;
   color:white;
-  border-top-right-radius:1rem ;
+  border-top-right-radius:1rem;
 }
 .footer .footer-header{
   font-weight: bold;
@@ -101,4 +103,8 @@ text-align: right;
 }
 .footer ul{
   padding-inline-start: 0px;
+}
+.container-center{
+max-width: 900px;
+font-size: large;
 }
