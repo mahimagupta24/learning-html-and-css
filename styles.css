@@ -73,6 +73,7 @@ text-align: right;
 }
 .hero .hero-heading{
   color: var(--dark-grey);
+  margin:auto;
 }
 .hero .hero-heading .heading-inverted{
   color:var(--primary-color)
