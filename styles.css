@@ -108,4 +108,5 @@ text-align: right;
 .container-center{
 max-width: 900px;
 font-size: large;
+text-align: center;
 }
