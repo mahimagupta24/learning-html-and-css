@@ -8,18 +8,30 @@ body {
   font-family: "Montserrat", sans-serif;
   margin:0px;
   background-color: #ddd6fe;
-  width:100%
 }
 hr {
-  margin: 3rem 0rem;
+  margin: 2rem 0rem;
 }
 .container {
   padding: 0rem 1rem;
 }
 .container-center {
-  max-width: 600px;
+  max-width: 900px;
   margin:auto;
+  text-align: center;
+  padding:1rem;
+}
+ .showcase-list{
   padding:2rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 3rem auto;
+}
+.showcase-list h1 {
+  margin: 0.5rem;
+}
+.showcase-list p {
+  padding-bottom: 1rem;
 }
 .link {
   text-decoration: none;
@@ -76,7 +88,7 @@ text-align: right;
   margin:auto;
 }
 .hero .hero-heading .heading-inverted{
-  color:var(--primary-color)
+  color:var(--primary-color);
 }
 .section{
   padding: 2rem;
@@ -87,7 +99,7 @@ text-align: right;
 }
 .ow{
   background-color: var(--off-white);
-  padding:2rem;
+  
 }
 .footer{
   background-color:var(--primary-color);
@@ -105,9 +117,4 @@ text-align: right;
 }
 .footer ul{
   padding-inline-start: 0px;
-}
-.container-center{
-max-width: 900px;
-font-size: large;
-text-align: center;
 }
