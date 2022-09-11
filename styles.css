@@ -17,17 +17,18 @@ hr {
 }
 .container-center {
   max-width: 900px;
-  margin: auto;
+  margin: auto ;
   text-align: center;
 }
-.showcase-list {
+ .showcase-list{
   padding: 2rem;
   border-radius: 1rem;
   text-align: center;
-  margin: 3rem auto;
+  margin: 2rem auto;
 }
 .showcase-list h1 {
-  margin: 0.5rem;
+  margin:1rem;
+  padding:2rem
 }
 .showcase-list p {
   padding-bottom: 1rem;
