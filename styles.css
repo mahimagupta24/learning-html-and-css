@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 :root {
-  --primary-color: #125927;
-  --dark-grey: #6b7280;
+  --primary-color: #16a34a;
+  --dark-grey: #a6adbb;
   --off-white: #f3f4f6;
 }
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
-  background-color: #ddd6fe;
+  background-color:#dcfce7;
 }
 hr {
   margin: 2rem 0rem;
@@ -80,10 +80,12 @@ hr {
   text-align: center;
   padding-top: 5rem;
 }
-.hero .hero-img {
-  max-width: 100px;
+.hero .hero-image {
+  max-width: 300px;
   display: block;
   margin: auto;
+
+  
 }
 .hero .hero-heading {
   color: var(--dark-grey);
